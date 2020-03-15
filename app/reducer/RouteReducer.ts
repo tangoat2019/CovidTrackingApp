@@ -1,8 +1,8 @@
 import * as constants from "../action/RouteAction"
-import {routeGate} from "../viewmodel/RouteVM"
+import {routeGate} from "../viewmodel/Route"
 
 const initialState = {
-  booth: routeGate.AUTH
+  booth: routeGate.guideGate
 }
 
 const routeReducer = (state = initialState, action) => {
